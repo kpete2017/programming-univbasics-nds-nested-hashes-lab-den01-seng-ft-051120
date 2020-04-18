@@ -12,8 +12,7 @@ def assembled_aoh
 end
 
 def literal_aoh
-  new_array =  [DON_G], [JOELLE_VD], [PAT_M], [KATE_G], [BRUCE_G]
-  new_array
+  new_array = [ [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G] ]
 end
 
 def aoh_lookup(aoh, row, key)
